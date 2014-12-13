@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>json-editor</artifactId>
-    <version>0.7.13</version>
+    <version>0.7.14-SNAPSHOT</version>
     <name>JSON Editor</name>
     <description>WebJar for JSON Editor</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/json-editor</url>
         <connection>scm:git:https://github.com/webjars/json-editor.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/json-editor.git</developerConnection>
-        <tag>json-editor-0.7.13</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <build>
