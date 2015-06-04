@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>json-editor</artifactId>
-    <version>0.7.18-SNAPSHOT</version>
+    <version>0.7.18</version>
     <name>JSON Editor</name>
     <description>WebJar for JSON Editor</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/json-editor</url>
         <connection>scm:git:https://github.com/webjars/json-editor.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/json-editor.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>json-editor-0.7.18</tag>
     </scm>
     
     <build>
@@ -65,9 +65,9 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/jsoneditor.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/jsoneditor.min.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/jsoneditor.js" dest="${destDir}" />
+                                <get src="${upstream.url}/jsoneditor.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
